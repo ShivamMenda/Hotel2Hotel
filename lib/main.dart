@@ -67,7 +67,7 @@ class _TravelAppState extends State<TravelApp> {
                 textAlign: TextAlign.start,
                 textAlignVertical: TextAlignVertical.center,
                 decoration: InputDecoration(
-                  hintText: "Search for a PG..",
+                  hintText: "Search for a Hotel..",
                   prefixIcon: Icon(
                     Icons.search,
                     color: Colors.black54,
@@ -111,7 +111,7 @@ class _TravelAppState extends State<TravelApp> {
                               scrollDirection: Axis.horizontal,
                               children: [
                                 travelCard(
-                                    urls[0], "Rajeshwari PG", "Mysore", 3)
+                                    urls[0], "Hotel1", "Cairo", 3)
                               ],
                             ),
                           ),
@@ -120,7 +120,7 @@ class _TravelAppState extends State<TravelApp> {
                               scrollDirection: Axis.horizontal,
                               children: [
                                 travelCard(
-                                    urls[0], "Rajeshwari PG", "Mysuru", 3)
+                                    urls[0], "Hotel2", "Cairo", 3)
                               ],
                             ),
                           ),
